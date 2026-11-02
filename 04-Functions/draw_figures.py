@@ -1,22 +1,42 @@
 import figures
-import turtle
 
-window = turtle.Screen()
-window.bgcolor("lightgreen")
+#window = turtle.Screen()
+#window.bgcolor("lightgreen")
+#pen = turtle.Turtle()
+#pen.speed(5)
 
-pen = turtle.Turtle()
-pen.speed(5)
+ksztalt = figures.draw_rectangle(20, 40)
 
-#figures.draw_trangle(100)
-figures.draw_rectangle(100,200)
-pen.penup()
-pen.goto(100, 100)
-figures.draw_rectangle(200,100)
-#figures.draw_trangle(100)
-#figures.draw_trangle(100)
-#figures.draw_square(100)
-#figures.draw_square(100)
-#pen.penup()
-pen.hideturtle()
-window.mainloop()
+figures.pen.penup()
+figures.pen.goto(40,0)
+figures.pen.pendown()
+
+ksztalt2 = figures.draw_rectangle(20, 40)
+
+figures.pen.penup()
+figures.pen.goto(80,0)
+figures.pen.pendown()
+
+ksztalt3 = figures.draw_square(20)
+
+figures.pen.penup()
+figures.pen.goto(120,0)
+figures.pen.pendown()
+
+ksztalt3 = figures.draw_square(20)
+
+figures.pen.penup()
+figures.pen.goto(160,0)
+figures.pen.pendown()
+
+ksztalt4 = figures.draw_trangle(20)
+
+figures.pen.penup()
+figures.pen.goto(200,0)
+figures.pen.pendown()
+
+ksztalt4 = figures.draw_trangle(20)
+
+figures.pen.hideturtle()
+figures.window.mainloop()
 
