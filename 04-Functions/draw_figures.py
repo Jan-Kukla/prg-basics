@@ -39,4 +39,3 @@ ksztalt4 = figures.draw_trangle(20)
 
 figures.pen.hideturtle()
 figures.window.mainloop()
-
